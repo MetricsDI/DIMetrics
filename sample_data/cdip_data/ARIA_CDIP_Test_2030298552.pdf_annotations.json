@@ -1,0 +1,212 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        333,
+        149,
+        1640,
+        110,
+        "Crane Testing Services, Inc."
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2042,
+        367,
+        675,
+        62,
+        "2700 Goolsby Avenue"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2042,
+        446,
+        333,
+        58,
+        "Richmond,"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2540,
+        448,
+        177,
+        48,
+        "Va. 23234"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2854,
+        758,
+        195,
+        41,
+        "5/21/91"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2737,
+        2146,
+        205,
+        41,
+        "1105.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        450,
+        1604,
+        1571,
+        113,
+        "Examination and Load Test for Certification of Crane S/N 79694 on April 15, 1991"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        450,
+        1779,
+        1662,
+        58,
+        "Furnish & deliver test weights for Load Test (2) Trucks"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        454,
+        1908,
+        1267,
+        54,
+        "Examination and Load Test of spreader beam"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        454,
+        2033,
+        1075,
+        50,
+        "1 only Rigger 5 Hr. @$42.00 per Hr."
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2767,
+        1658,
+        170,
+        42,
+        "250.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2762,
+        1779,
+        175,
+        42,
+        "445.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2767,
+        1904,
+        175,
+        38,
+        "200.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2767,
+        2025,
+        175,
+        37,
+        "210.00"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2925,
+        159,
+        164,
+        60,
+        "0476"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2742,
+        2271,
+        208,
+        46,
+        "1105.00"
+      ]
+    }
+  ]
+}

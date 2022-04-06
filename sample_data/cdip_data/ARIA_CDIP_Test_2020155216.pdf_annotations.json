@@ -1,0 +1,160 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        233,
+        283,
+        434,
+        34,
+        "4000 Commercial Ave"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        961,
+        275,
+        110,
+        33,
+        "60062"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        471,
+        853,
+        604,
+        47,
+        "PHILIP MORRIS USA"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        471,
+        978,
+        596,
+        47,
+        "4201 COMMERCE DR"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        475,
+        1045,
+        279,
+        47,
+        "RICHMOND"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        908,
+        1037,
+        167,
+        46,
+        "VA 23234"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2037,
+        1270,
+        167,
+        42,
+        "AP521"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2621,
+        1261,
+        250,
+        43,
+        "8-17-90"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2671,
+        3095,
+        321,
+        55,
+        "86,250.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        657,
+        1782,
+        894,
+        418,
+        "CONDUCT DEVELOPMENT EFFORTS NECESSARY TO PRODUCE 100 PROTOTYPES ELECTRONIC CONTROL PACKAGES IN ACCORDANCE WITH THE TERMS OF THE PMX AGREEMENT DATED APRIL 23,1990"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2662,
+        1771,
+        321,
+        51,
+        "86,250.00"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        233,
+        175,
+        659,
+        50,
+        "MOTOROLA INC."
+      ]
+    }
+  ]
+}

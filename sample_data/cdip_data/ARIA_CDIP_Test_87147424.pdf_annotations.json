@@ -1,0 +1,108 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2261,
+        462,
+        451,
+        50,
+        "935 Horsham Road"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2137,
+        522,
+        217,
+        45,
+        "Horsham,"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2699,
+        533,
+        138,
+        39,
+        "Pennsylvania 19044"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1504,
+        2236,
+        125,
+        39,
+        "1061"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1803,
+        803,
+        455,
+        46,
+        "March 1, 1987"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1817,
+        2716,
+        275,
+        42,
+        "8,500.00"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        882,
+        287,
+        1948,
+        98,
+        "ARGUS RESEARCH LABORATORIES, INC"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1541,
+        1637,
+        1455,
+        234,
+        "DEVELOPMENTAL TOXICITY (EMBRYO/FETAL TOXICITY AND TERATOGENIC POTENTIAL STUDY OF D7 ADMINISTERED ORALLY VIA GAVAGE TO CrI:COBS\u00aeCD\u00ae(SD)BR PRESUMED PREGNANT RATS"
+      ]
+    }
+  ]
+}

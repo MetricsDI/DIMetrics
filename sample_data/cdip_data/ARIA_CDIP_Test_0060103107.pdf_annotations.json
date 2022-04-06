@@ -1,0 +1,212 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2329,
+        276,
+        88,
+        29,
+        "Connecticut 06831"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        900,
+        1524,
+        409,
+        56,
+        "05-0035 "
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        670,
+        812,
+        276,
+        50,
+        "May 4, 1993"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2432,
+        2512,
+        222,
+        46,
+        "6,839.12"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        712,
+        2317,
+        966,
+        65,
+        "NCOA Processing - 374,285 records \u00a9 2/M"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        716,
+        2412,
+        193,
+        46,
+        "Shipping"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2411,
+        1861,
+        219,
+        48,
+        "$1,764,75"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2445,
+        1936,
+        189,
+        46,
+        "1,051.87"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2490,
+        2075,
+        148,
+        42,
+        "441.19"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2450,
+        2221,
+        193,
+        46,
+        "2,647.12"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2495,
+        2292,
+        148,
+        45,
+        "880.69"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2524,
+        2366,
+        123,
+        42,
+        "53.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        699,
+        1892,
+        864,
+        58,
+        "Minimum charge lor Database passing"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        703,
+        1970,
+        660,
+        51,
+        "Household level Mcrge/Punge"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        703,
+        2029,
+        1056,
+        134,
+        "Pass file tn Nlh/SpliVCreatc Control celis/Assign "
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        708,
+        2166,
+        1241,
+        77,
+        "Programming & Project Management - 3 days @ 882.30"
+      ]
+    }
+  ]
+}

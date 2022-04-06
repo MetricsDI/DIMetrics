@@ -1,0 +1,199 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2225,
+        1317,
+        171,
+        45,
+        "1568"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2037,
+        887,
+        612,
+        49,
+        "November 20, 1992"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2362,
+        3379,
+        317,
+        41,
+        "62,495.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        433,
+        2717,
+        2249,
+        58,
+        "3 Markets 10/12/92 Additional Cost Set-Up "
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        433,
+        2837,
+        1850,
+        59,
+        "3 Markets 10/26/92 Additional Cost Sales Check #1"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2367,
+        2475,
+        316,
+        46,
+        "50,580.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2400,
+        2717,
+        282,
+        50,
+        "5,335.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2400,
+        2837,
+        283,
+        49,
+        "6,580.00"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        551,
+        321,
+        1768,
+        116,
+        "Ehrhart-Babic Associates, Inc."
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        217,
+        2242,
+        1300,
+        50,
+        "118-1568 Houston 11/09/92"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        217,
+        2358,
+        1299,
+        54,
+        "118-1569 Minneapolis 11/09/92"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        217,
+        2480,
+        1300,
+        53,
+        "118-1570 Pittsburgh 11/09/92"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1925,
+        2237,
+        62,
+        39,
+        "83"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        1925,
+        2357,
+        66,
+        39,
+        "79"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        1926,
+        2476,
+        61,
+        41,
+        "78"
+      ]
+    }
+  ]
+}

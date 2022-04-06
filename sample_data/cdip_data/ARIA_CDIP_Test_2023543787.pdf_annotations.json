@@ -1,0 +1,160 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||buyer_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        425,
+        542,
+        596,
+        100,
+        "PHILIP MORRIS USA OPERATIONS CENTER"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        425,
+        733,
+        304,
+        38,
+        "RICHMOND"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        892,
+        729,
+        166,
+        38,
+        "VA 23261"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2683,
+        162,
+        129,
+        38,
+        "3761"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2183,
+        158,
+        276,
+        47,
+        "11/17/86"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2671,
+        3171,
+        308,
+        37,
+        "14,007.53"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        642,
+        1283,
+        745,
+        107,
+        "PORTABLE AIR SAMPLING SYSTEMS"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        642,
+        1408,
+        200,
+        34,
+        "SHIPPING CHGS"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        321,
+        1287,
+        25,
+        34,
+        "2"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2154,
+        1283,
+        313,
+        38,
+        "7000.0000"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2696,
+        1283,
+        271,
+        34,
+        "14000.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2837,
+        1400,
+        130,
+        37,
+        "7.53"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1025,
+        450,
+        926,
+        50,
+        "Covington & Burling"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1071,
+        528,
+        825,
+        33,
+        "1201 PENNSYLVANIA AVENUE. N W"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1196,
+        653,
+        291,
+        27,
+        "WASHINGTON"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1624,
+        654,
+        151,
+        29,
+        "D C 20044"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2207,
+        1029,
+        576,
+        43,
+        "December 22, 1595"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2429,
+        3371,
+        308,
+        45,
+        "8,767.25"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2583,
+        1679,
+        163,
+        38,
+        "77,4 2"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2479,
+        1736,
+        267,
+        43,
+        "5,015.25"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2583,
+        1791,
+        163,
+        39,
+        "53.85"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2549,
+        1849,
+        194,
+        38,
+        "327.92"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2582,
+        1904,
+        163,
+        42,
+        "33.25"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2546,
+        1962,
+        200,
+        39,
+        "131.15"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2546,
+        2021,
+        196,
+        37,
+        "440.47"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2454,
+        2075,
+        317,
+        40,
+        "(1,265.00)"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        2475,
+        2366,
+        267,
+        38,
+        "2095.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        2579,
+        2421,
+        163,
+        38,
+        "37.90"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 11,
+      "activity_label": "",
+      "bounding_box": [
+        2579,
+        2478,
+        163,
+        40,
+        "62.62"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 12,
+      "activity_label": "",
+      "bounding_box": [
+        2617,
+        2537,
+        125,
+        38,
+        "9.32"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 13,
+      "activity_label": "",
+      "bounding_box": [
+        2579,
+        2592,
+        163,
+        38,
+        "23.35"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 14,
+      "activity_label": "",
+      "bounding_box": [
+        2543,
+        2649,
+        199,
+        39,
+        "235.71"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 15,
+      "activity_label": "",
+      "bounding_box": [
+        2478,
+        2707,
+        264,
+        38,
+        "1343.49"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 0,
+      "activity_label": "",
+      "bounding_box": [
+        2478,
+        2707,
+        264,
+        38,
+        "1*343.49"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 16,
+      "activity_label": "",
+      "bounding_box": [
+        2579,
+        2999,
+        163,
+        35,
+        "40.65"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 17,
+      "activity_label": "",
+      "bounding_box": [
+        2579,
+        3054,
+        159,
+        38,
+        "53,13"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 18,
+      "activity_label": "",
+      "bounding_box": [
+        2579,
+        3111,
+        162,
+        36,
+        "51.27"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        383,
+        1667,
+        579,
+        50,
+        "Computer Research"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        383,
+        1721,
+        371,
+        50,
+        "Duplicating"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        384,
+        1779,
+        683,
+        50,
+        "Local Transportation"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        387,
+        1836,
+        784,
+        51,
+        "Long Distance Telephone"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        382,
+        1892,
+        918,
+        53,
+        "Mail and Messenger Services"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        382,
+        1950,
+        439,
+        42,
+        "Miscellaneous"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        383,
+        2004,
+        709,
+        58,
+        "Telecommunications "
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        379,
+        2063,
+        200,
+        41,
+        "Travel"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        382,
+        2350,
+        371,
+        54,
+        "Duplicating"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        383,
+        2408,
+        679,
+        50,
+        "Local Transportation"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 11,
+      "activity_label": "",
+      "bounding_box": [
+        383,
+        2467,
+        784,
+        51,
+        "Lang Distance Telephone"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 12,
+      "activity_label": "",
+      "bounding_box": [
+        379,
+        2524,
+        921,
+        51,
+        "Mail and Messenger Services"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 13,
+      "activity_label": "",
+      "bounding_box": [
+        379,
+        2583,
+        439,
+        38,
+        "Miscellaneous"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 14,
+      "activity_label": "",
+      "bounding_box": [
+        379,
+        2637,
+        614,
+        42,
+        "Telecommunicat ions"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 15,
+      "activity_label": "",
+      "bounding_box": [
+        379,
+        2693,
+        197,
+        40,
+        "Travel"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 16,
+      "activity_label": "",
+      "bounding_box": [
+        379,
+        2986,
+        371,
+        51,
+        "Duplicating"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 17,
+      "activity_label": "",
+      "bounding_box": [
+        380,
+        3042,
+        782,
+        50,
+        "Long Distance Telephone"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 18,
+      "activity_label": "",
+      "bounding_box": [
+        378,
+        3096,
+        613,
+        42,
+        "Telecommunications"
+      ]
+    }
+  ]
+}

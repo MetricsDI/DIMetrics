@@ -1,0 +1,173 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1196,
+        605,
+        316,
+        36,
+        "46th Ave."
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1842,
+        604,
+        104,
+        33,
+        "Md. 20781"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2212,
+        996,
+        200,
+        46,
+        "25443"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2221,
+        1058,
+        262,
+        54,
+        "1/31/94"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2704,
+        3817,
+        242,
+        51,
+        "1918.91"
+      ]
+    },
+    {
+      "classification_label": "main|||tax_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2817,
+        3633,
+        141,
+        46,
+        "0.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        243,
+        1845,
+        1128,
+        126,
+        "ASSEMBLE KITS USE FOR ORDER FULFILLMENT VOLUME: 1,247"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        249,
+        1983,
+        322,
+        50,
+        "MATERIALS"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        249,
+        2115,
+        418,
+        47,
+        "POSTADE USED"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2646,
+        1908,
+        254,
+        47,
+        "1462.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2721,
+        1975,
+        171,
+        47,
+        "20.01"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2680,
+        2104,
+        221,
+        50,
+        "436.90"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1191,
+        468,
+        1097,
+        59,
+        "FANNON-LUERS ASSOCIATES INC."
+      ]
+    }
+  ]
+}

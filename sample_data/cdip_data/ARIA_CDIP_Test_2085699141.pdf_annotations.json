@@ -1,0 +1,199 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2079,
+        878,
+        167,
+        44,
+        "22267"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2079,
+        803,
+        197,
+        48,
+        "6/28/00"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2412,
+        3642,
+        180,
+        41,
+        "564.19"
+      ]
+    },
+    {
+      "classification_label": "main|||net_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2417,
+        3458,
+        179,
+        42,
+        "525.00"
+      ]
+    },
+    {
+      "classification_label": "main|||tax_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2449,
+        3545,
+        147,
+        42,
+        "39.19"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2454,
+        1871,
+        175,
+        41,
+        "125.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2479,
+        1987,
+        146,
+        43,
+        "50.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2478,
+        2220,
+        146,
+        43,
+        "25.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2442,
+        2337,
+        183,
+        43,
+        "300.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2474,
+        2454,
+        147,
+        46,
+        "25.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        279,
+        1837,
+        608,
+        50,
+        "1 DIGITAL BETACAM"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        271,
+        1954,
+        515,
+        105,
+        "1 3/4\" DUB ORDERED 6/21/00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        270,
+        2191,
+        1030,
+        55,
+        ".25 HOUR OF AVID LOAD @$100/HR"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        267,
+        2308,
+        658,
+        53,
+        "6 VHS DUBS @ $50/EA"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        262,
+        2425,
+        642,
+        108,
+        "1 FEDERAL EXPRESS ORDERED 6/22/00"
+      ]
+    }
+  ]
+}

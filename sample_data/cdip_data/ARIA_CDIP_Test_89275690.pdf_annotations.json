@@ -1,0 +1,134 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        396,
+        525,
+        991,
+        50,
+        "CENTER FOR INDOOR AIR RESEARCH"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        392,
+        3642,
+        591,
+        37,
+        "1009 Winterson Road, Suite 280"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        387,
+        3700,
+        192,
+        42,
+        "Linthicum"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        796,
+        3703,
+        103,
+        39,
+        "Maryland 21090"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1793,
+        1361,
+        453,
+        43,
+        "December 1, 1993"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2367,
+        2671,
+        295,
+        46,
+        "$43,453.69"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2368,
+        2442,
+        294,
+        45,
+        "$35,531,42"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2430,
+        2558,
+        229,
+        41,
+        "7,922,27"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        642,
+        2436,
+        820,
+        43,
+        "December assessment for CIAR"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        642,
+        2496,
+        1483,
+        108,
+        "December supplemental assessment for Johns Hopkins, Dr. Matanoski, Confounders Study"
+      ]
+    }
+  ]
+}

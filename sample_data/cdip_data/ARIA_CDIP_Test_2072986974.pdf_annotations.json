@@ -1,0 +1,589 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1033,
+        404,
+        942,
+        54,
+        "Farragut International, LLC"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1029,
+        512,
+        371,
+        50,
+        "Washington,"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1662,
+        521,
+        342,
+        33,
+        "D. C. 20006-3959"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2329,
+        1354,
+        129,
+        38,
+        "5.00"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2329,
+        1567,
+        129,
+        37,
+        "1.50"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2329,
+        1829,
+        129,
+        38,
+        "3.00"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2329,
+        1992,
+        129,
+        33,
+        "1.00"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2325,
+        2096,
+        133,
+        37,
+        "1.00"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2321,
+        2146,
+        137,
+        37,
+        "4.00"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2325,
+        2250,
+        133,
+        37,
+        "3.00"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2325,
+        2304,
+        133,
+        33,
+        "4.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2679,
+        1354,
+        200,
+        38,
+        "275.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2679,
+        1567,
+        200,
+        37,
+        "472.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2683,
+        1829,
+        196,
+        38,
+        "945.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2679,
+        1987,
+        204,
+        42,
+        "315.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2679,
+        2096,
+        200,
+        37,
+        "315.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2646,
+        2146,
+        233,
+        37,
+        "1260.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2679,
+        2250,
+        200,
+        37,
+        "945.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2646,
+        2300,
+        233,
+        37,
+        "1260.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        679,
+        1350,
+        1279,
+        42,
+        "Retrieval of comments in OST-96-1880"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        679,
+        1400,
+        1279,
+        204,
+        "Review latest dot docket submissions; draft memo to M. Pottorff on ICAO meetings, Airbuc draft and related matters."
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        679,
+        1612,
+        1321,
+        263,
+        "Draft memo to Ambassador Peiesik; prepare summary of FAA funding process and Aviation Trust Fund; send to Peissik; draft and send memo to N. Bertrand (Air France) on ICAO meeting,"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        679,
+        1879,
+        1396,
+        158,
+        "Telephone conference with M. Pottorft on DOT statistics, Airbus draft, NYC meeting and related matters."
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        679,
+        2037,
+        1279,
+        96,
+        "Review latest DOT docket submissions; discuss with M. Crews."
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        679,
+        2137,
+        488,
+        50,
+        "Travel DCA/NYC"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        675,
+        2192,
+        1396,
+        95,
+        "Meeting with M, Pottorff, M. Winckur 120 Park Ave on various matters"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        679,
+        2296,
+        488,
+        50,
+        "Travel NYC/DCA"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        2679,
+        2933,
+        200,
+        38,
+        "120.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        2750,
+        2987,
+        129,
+        34,
+        "7.70"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 11,
+      "activity_label": "",
+      "bounding_box": [
+        2679,
+        3037,
+        200,
+        38,
+        "521.68"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 12,
+      "activity_label": "",
+      "bounding_box": [
+        2642,
+        3092,
+        233,
+        37,
+        "4335.93"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 13,
+      "activity_label": "",
+      "bounding_box": [
+        2712,
+        3137,
+        167,
+        42,
+        "37.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 14,
+      "activity_label": "",
+      "bounding_box": [
+        2646,
+        3192,
+        233,
+        41,
+        "1429.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 15,
+      "activity_label": "",
+      "bounding_box": [
+        2712,
+        3246,
+        167,
+        41,
+        "46.38"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 16,
+      "activity_label": "",
+      "bounding_box": [
+        2750,
+        3300,
+        129,
+        37,
+        "6.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        217,
+        2937,
+        316,
+        46,
+        "Messenger"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        221,
+        2987,
+        133,
+        38,
+        "Taxi"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 12,
+      "activity_label": "",
+      "bounding_box": [
+        221,
+        3092,
+        204,
+        37,
+        "Travel"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 13,
+      "activity_label": "",
+      "bounding_box": [
+        221,
+        3142,
+        412,
+        41,
+        "Publications"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 14,
+      "activity_label": "",
+      "bounding_box": [
+        221,
+        3196,
+        171,
+        37,
+        "Xerox"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 15,
+      "activity_label": "",
+      "bounding_box": [
+        221,
+        3246,
+        308,
+        50,
+        "Telephone"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 16,
+      "activity_label": "",
+      "bounding_box": [
+        221,
+        3300,
+        275,
+        50,
+        "Telecopy"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 11,
+      "activity_label": "",
+      "bounding_box": [
+        217,
+        3033,
+        383,
+        54,
+        "Air Express"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2575,
+        3558,
+        304,
+        50,
+        "12791.09"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        925,
+        467,
+        1146,
+        46,
+        "888 17th street, N. W. Suite 600"
+      ]
+    }
+  ]
+}

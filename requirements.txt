@@ -1,0 +1,17 @@
+pybind11
+numpy
+torch>=1.0.0
+pandas
+pdf2image
+matplotlib
+pillow
+jupyter
+ray
+distance
+apted
+lxml
+openpyxl
+seqeval
+mock
+torchstruct
+

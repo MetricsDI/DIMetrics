@@ -1,0 +1,10 @@
+,value
+true positives,1.0
+t_o_l_i,23.0
+t_u_l_i,21.0
+Micro_Precision,0.047619047619047616
+Micro_Recall,0.043478260869565216
+Macro_Precision,0.25
+Macro_Recall,0.25
+precision (no description),0.047619047619047616
+recall (no description),0.043478260869565216

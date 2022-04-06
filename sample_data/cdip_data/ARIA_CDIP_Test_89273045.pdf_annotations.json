@@ -1,0 +1,160 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        587,
+        171,
+        231,
+        42,
+        "Otley Road"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        592,
+        220,
+        209,
+        42,
+        "Harrogate, North Yorks"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        587,
+        270,
+        196,
+        38,
+        "HG3 1PY"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_country||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        587,
+        320,
+        325,
+        47,
+        "United Kingdom"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2829,
+        336,
+        83,
+        35,
+        "277"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1008,
+        1295,
+        267,
+        37,
+        "13-Jun-95"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2633,
+        3454,
+        304,
+        42,
+        "302,200.00"
+      ]
+    },
+    {
+      "classification_label": "main|||net_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2637,
+        3236,
+        300,
+        39,
+        "302,200.00"
+      ]
+    },
+    {
+      "classification_label": "main|||tax_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2821,
+        3345,
+        121,
+        35,
+        "0.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        721,
+        1508,
+        1501,
+        392,
+        "Sponsor's Monitor: Max Eisenberg CONTRACT 94-08 He Study Nos; 1360/1 to 6 inclusive Conduct of a study to measure environmental tobacco by personal monitoring in European cities as described in the Application for Research Contract To 3rd quarterly payment due on above study."
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2651,
+        1867,
+        303,
+        40,
+        "302,200.00"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        583,
+        492,
+        413,
+        44,
+        "Corning Hazleton Ltd"
+      ]
+    }
+  ]
+}

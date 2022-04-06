@@ -1,0 +1,12 @@
+python DeepCPCFG/deepcpcfg_allmetrics_cdipI.py
+
+#python FormRecognizerPrebuilt/FormRecognizerPrebuiltInvoice_allmetrics_cdipI.py
+#python FormRecognizerPrebuilt/FormRecognizerPrebuiltInvoice_allmetrics_cord.py
+
+#python Evaluations/Googcloudinvoiceparser/Googecloudinvoiceparser_allmetrics_cdipI.py
+
+#python Evaluations/LayoutLMheuristicLIgrouping/LayoutLMheuristicLIgrouping_allmetrics_cdipI.py
+#python Evaluations/LayoutLMheuristicLIgrouping/LayoutLMpslLIgrouping_allmetrics_cord.py
+
+#python Evaluations/LayoutLMpsl/LayoutLMpslLIgrouping_allmetrics_cdipI.py
+#python Evaluations/LayoutLMpsl/LayoutLMpslLIgrouping_allmetrics_cord.py

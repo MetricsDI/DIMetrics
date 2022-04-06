@@ -1,0 +1,82 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||buyer_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1258,
+        1033,
+        138,
+        38,
+        "New York 10022"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        600,
+        1458,
+        167,
+        46,
+        "6.M33"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        167,
+        1458,
+        258,
+        46,
+        "75 JUN 27"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2700,
+        1871,
+        258,
+        54,
+        "26,695.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        883,
+        1821,
+        1279,
+        41,
+        "RESEARCH STUDIES OH CIGARETTE CHARACTERISTICS"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2279,
+        1817,
+        254,
+        50,
+        "26,695.00"
+      ]
+    }
+  ]
+}

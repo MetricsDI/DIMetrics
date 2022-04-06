@@ -1,0 +1,173 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1825,
+        375,
+        612,
+        33,
+        "4733 BETHESDA AVENUE"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1825,
+        429,
+        267,
+        38,
+        "BETHESDA"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2408,
+        433,
+        150,
+        34,
+        "20014"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        325,
+        625,
+        1200,
+        50,
+        "The Council for Tobacco Research, USA, Inc."
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        329,
+        687,
+        567,
+        46,
+        "110 East 59th Street"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        326,
+        746,
+        253,
+        46,
+        "New York"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        929,
+        742,
+        138,
+        37,
+        "10022"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2233,
+        625,
+        309,
+        42,
+        "CTR-0025-12"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2783,
+        1983,
+        254,
+        53,
+        "8,635.86"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1046,
+        1633,
+        1216,
+        159,
+        "This voucher represents reimburseable costs for period September 6, 1975 thru October 3, 1975"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        1046,
+        1858,
+        254,
+        38,
+        "Fixed Fee"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2783,
+        1762,
+        254,
+        55,
+        "7,965.86"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2867,
+        1871,
+        170,
+        50,
+        "670.00"
+      ]
+    }
+  ]
+}

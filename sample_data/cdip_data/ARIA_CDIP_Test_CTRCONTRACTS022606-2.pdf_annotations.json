@@ -1,0 +1,277 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1167,
+        501,
+        812,
+        100,
+        "C.H. POWELL CO., INC."
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1308,
+        733,
+        513,
+        29,
+        "170  BROAD SUITE 1610"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1283,
+        779,
+        309,
+        33,
+        "NEW YORK,"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1742,
+        779,
+        100,
+        29,
+        "NEW YORK 10038"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2650,
+        1117,
+        229,
+        37,
+        "0045821"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2212,
+        1117,
+        263,
+        37,
+        "20-NOV-85"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2042,
+        2692,
+        195,
+        40,
+        "217.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2079,
+        1854,
+        163,
+        38,
+        "55.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2079,
+        1904,
+        163,
+        44,
+        "57.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2083,
+        1962,
+        154,
+        38,
+        "15.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2112,
+        2021,
+        125,
+        36,
+        "7.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2079,
+        2075,
+        158,
+        37,
+        "60,00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2079,
+        2129,
+        158,
+        38,
+        "10.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2083,
+        2192,
+        155,
+        42,
+        "12.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        758,
+        1908,
+        300,
+        37,
+        "ENTRY FEE"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        767,
+        1967,
+        591,
+        36,
+        "IMMEDIATE DELIVERY"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        758,
+        2025,
+        663,
+        33,
+        "VALUATION % CLASSIF"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        758,
+        2064,
+        401,
+        53,
+        "CUSTOMS BOND"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        758,
+        2133,
+        667,
+        42,
+        "DEL. ORDER & RELEASE"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        758,
+        2196,
+        301,
+        33,
+        "MESSENGER"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        454,
+        1858,
+        842,
+        37,
+        "30069 TERMINAL CHARGES"
+      ]
+    }
+  ]
+}

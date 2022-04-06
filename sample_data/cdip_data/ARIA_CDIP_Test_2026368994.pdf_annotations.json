@@ -1,0 +1,69 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1036,
+        404,
+        970,
+        114,
+        "LIGGETT & MYERS INCORPORATED"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1137,
+        686,
+        588,
+        43,
+        "4100 Roxboro Road"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1137,
+        921,
+        230,
+        46,
+        "Durham,"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1979,
+        917,
+        166,
+        37,
+        "North Carolina 27702"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        612,
+        2107,
+        1825,
+        172,
+        "Studying Office Action, Amending pages 22, 23, 27 and 29 of specification and claims, Filing response, reporting thereof and postage expenses"
+      ]
+    }
+  ]
+}

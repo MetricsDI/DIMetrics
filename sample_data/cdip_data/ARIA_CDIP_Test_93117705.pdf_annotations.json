@@ -1,0 +1,459 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        420,
+        525,
+        427,
+        42,
+        "Rapp Collins Worldwide"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        411,
+        600,
+        326,
+        26,
+        "488 Madison Avenue "
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        658,
+        636,
+        176,
+        35,
+        "NY 10022-5702"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2174,
+        1232,
+        226,
+        43,
+        "D-10-0501"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        700,
+        1249,
+        442,
+        43,
+        "OCTOBER 5, 1994"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2533,
+        2470,
+        250,
+        42,
+        "419,136.83"
+      ]
+    },
+    {
+      "classification_label": "main|||tax_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2587,
+        2350,
+        195,
+        46,
+        "2.769,76"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2554,
+        1817,
+        221,
+        46,
+        "73.397.83"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2583,
+        1875,
+        196,
+        47,
+        "5,719.55"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2632,
+        1937,
+        148,
+        38,
+        "139 59"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2562,
+        1996,
+        217,
+        37,
+        "13,510 93"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2557,
+        2053,
+        222,
+        44,
+        "27,603.04"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2558,
+        2112,
+        221,
+        46,
+        "63.547.57"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2533,
+        2174,
+        247,
+        47,
+        "121,585.99"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2533,
+        2233,
+        246,
+        46,
+        "110,273.64"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        2632,
+        2291,
+        148,
+        39,
+        "588.97"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1458,
+        1829,
+        226,
+        45,
+        "62,356.60"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        1533,
+        1946,
+        151,
+        41,
+        "118.66"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        1467,
+        2008,
+        216,
+        45,
+        "11,484.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        1461,
+        2067,
+        223,
+        41,
+        "23,462.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        1462,
+        2125,
+        225,
+        42,
+        "54,014.08"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        1437,
+        2183,
+        250,
+        45,
+        "104,622.47"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        1437,
+        2246,
+        246,
+        45,
+        "110,273.64"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        1533,
+        2303,
+        155,
+        43,
+        "588.97"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        1487,
+        1887,
+        196,
+        46,
+        "4,661.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        220,
+        1845,
+        264,
+        42,
+        "INSERTING"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        221,
+        1903,
+        354,
+        44,
+        "MECHANICALS"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        220,
+        1967,
+        363,
+        37,
+        "COLOR XEROX"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        221,
+        2021,
+        346,
+        42,
+        "TYPESETTING"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        220,
+        2082,
+        297,
+        44,
+        "ENGRAVING"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        224,
+        2146,
+        780,
+        29,
+        "P ERSONALIZATI0 N/KEYCODIN G"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        225,
+        2203,
+        229,
+        39,
+        "PRINTING"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        225,
+        2262,
+        237,
+        42,
+        "POSTAGE"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        221,
+        2320,
+        234,
+        42,
+        "SHIPPING"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        582,
+        637,
+        61,
+        35,
+        "NY"
+      ]
+    }
+  ]
+}

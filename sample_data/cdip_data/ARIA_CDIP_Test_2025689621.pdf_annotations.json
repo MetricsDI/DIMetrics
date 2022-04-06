@@ -1,0 +1,654 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1208,
+        433,
+        793,
+        75,
+        "Imperial Tobacco Limited"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1479,
+        511,
+        204,
+        47,
+        "Hartcliffe"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1853,
+        528,
+        147,
+        34,
+        "BS99 7UJ"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2145,
+        967,
+        488,
+        50,
+        "25 September, 1987"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2214,
+        1570,
+        22,
+        39,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2217,
+        1625,
+        20,
+        38,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2216,
+        1686,
+        18,
+        36,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2217,
+        1742,
+        16,
+        34,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2212,
+        1796,
+        21,
+        34,
+        "2"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2217,
+        1904,
+        17,
+        33,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2216,
+        2012,
+        13,
+        39,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2211,
+        2067,
+        18,
+        37,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        2208,
+        2121,
+        21,
+        37,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        2179,
+        2229,
+        51,
+        39,
+        "10"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 11,
+      "activity_label": "",
+      "bounding_box": [
+        2182,
+        2286,
+        51,
+        36,
+        "10"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 12,
+      "activity_label": "",
+      "bounding_box": [
+        2203,
+        2395,
+        22,
+        38,
+        "4"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 13,
+      "activity_label": "",
+      "bounding_box": [
+        2207,
+        2453,
+        18,
+        35,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 14,
+      "activity_label": "",
+      "bounding_box": [
+        2203,
+        2507,
+        18,
+        36,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 15,
+      "activity_label": "",
+      "bounding_box": [
+        2203,
+        2617,
+        18,
+        37,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 16,
+      "activity_label": "",
+      "bounding_box": [
+        2199,
+        2674,
+        23,
+        35,
+        "8"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 17,
+      "activity_label": "",
+      "bounding_box": [
+        2200,
+        2728,
+        21,
+        35,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2521,
+        1578,
+        75,
+        39,
+        "399"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2520,
+        1632,
+        77,
+        39,
+        "330"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2545,
+        1692,
+        51,
+        37,
+        "78"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2517,
+        1745,
+        79,
+        38,
+        "438"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2517,
+        1799,
+        79,
+        43,
+        "480"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2517,
+        1908,
+        79,
+        38,
+        "120"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2537,
+        2075,
+        55,
+        37,
+        "20"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        2537,
+        2237,
+        51,
+        38,
+        "50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 13,
+      "activity_label": "",
+      "bounding_box": [
+        2533,
+        2458,
+        51,
+        38,
+        "20"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 15,
+      "activity_label": "",
+      "bounding_box": [
+        2532,
+        2625,
+        51,
+        33,
+        "20"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 16,
+      "activity_label": "",
+      "bounding_box": [
+        2528,
+        2679,
+        52,
+        38,
+        "20"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 17,
+      "activity_label": "",
+      "bounding_box": [
+        2529,
+        2733,
+        50,
+        35,
+        "10"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        486,
+        1542,
+        572,
+        50,
+        "BBC B+ Microcomputer*"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        486,
+        1596,
+        626,
+        47,
+        "Cumans Dual Disc Drive*"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        483,
+        1654,
+        821,
+        51,
+        "Tatung Honochrome Monitor TM80"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        483,
+        1708,
+        521,
+        46,
+        "Epion Printer FX80+"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        483,
+        1761,
+        1038,
+        60,
+        "Firmness Controls Pressure Transducers"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        483,
+        1871,
+        625,
+        54,
+        "Flow Control Unit (TTL)"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        532,
+        1983,
+        356,
+        42,
+        "Printer Cable"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        533,
+        2033,
+        351,
+        46,
+        "Monitor Cable"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        529,
+        2087,
+        658,
+        50,
+        "Maine Distribution Cable"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        528,
+        2199,
+        601,
+        55,
+        "Flow Sensor (Perspex)"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 11,
+      "activity_label": "",
+      "bounding_box": [
+        529,
+        2253,
+        738,
+        59,
+        "Flow Sensor (Polypropylene"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 12,
+      "activity_label": "",
+      "bounding_box": [
+        528,
+        2367,
+        434,
+        51,
+        "Polythene tubing"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 13,
+      "activity_label": "",
+      "bounding_box": [
+        525,
+        2417,
+        383,
+        50,
+        "Tool Kit (tin)"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 14,
+      "activity_label": "",
+      "bounding_box": [
+        528,
+        2478,
+        514,
+        48,
+        "Printer Paper (box)"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 15,
+      "activity_label": "",
+      "bounding_box": [
+        524,
+        2583,
+        410,
+        42,
+        "Computer Plinth"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 16,
+      "activity_label": "",
+      "bounding_box": [
+        525,
+        2641,
+        842,
+        58,
+        "Computer Flexible Diacs (blank)"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 17,
+      "activity_label": "",
+      "bounding_box": [
+        525,
+        2692,
+        900,
+        59,
+        "Cumene Flexible Disc (Formatter)*"
+      ]
+    }
+  ]
+}

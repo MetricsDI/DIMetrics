@@ -1,0 +1,134 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        196,
+        562,
+        341,
+        46,
+        "11250 Kirkland Way"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        700,
+        562,
+        142,
+        38,
+        "Kirkland"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        935,
+        567,
+        65,
+        33,
+        "WA 98033"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1687,
+        887,
+        417,
+        55,
+        "Haegens & Berman"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2533,
+        575,
+        109,
+        42,
+        "5709"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2175,
+        579,
+        137,
+        42,
+        "5/5/97"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2579,
+        3704,
+        146,
+        39,
+        "75.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        58,
+        1758,
+        754,
+        121,
+        "60 Minutes: The Tobbaco Tapes\" News 5/4/97 8:00pm KSTW-CBS"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2034,
+        1821,
+        124,
+        41,
+        "75.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2571,
+        1821,
+        121,
+        37,
+        "75.00"
+      ]
+    }
+  ]
+}

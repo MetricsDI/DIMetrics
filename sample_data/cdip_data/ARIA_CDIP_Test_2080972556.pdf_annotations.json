@@ -1,0 +1,342 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        653,
+        641,
+        169,
+        51,
+        "06901"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1625,
+        1028,
+        596,
+        55,
+        "Marketing Visions, Inc."
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1625,
+        1087,
+        575,
+        115,
+        "660 White Plains Road Suite 400"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1625,
+        1229,
+        262,
+        49,
+        "Tarrytown,"
+      ]
+    },
+    {
+      "classification_label": "main|||buyer_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2184,
+        1220,
+        133,
+        42,
+        "New York 10591"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2125,
+        599,
+        71,
+        39,
+        "232"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        437,
+        1832,
+        39,
+        36,
+        "12"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        457,
+        1886,
+        22,
+        36,
+        "2"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        458,
+        1937,
+        22,
+        38,
+        "8"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        467,
+        1992,
+        8,
+        37,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2307,
+        1817,
+        147,
+        41,
+        "60.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2308,
+        1871,
+        146,
+        37,
+        "15.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2334,
+        1921,
+        121,
+        42,
+        "4.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2312,
+        1975,
+        142,
+        42,
+        "10.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2674,
+        1804,
+        169,
+        42,
+        "720.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2700,
+        1857,
+        146,
+        39,
+        "30.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2703,
+        1911,
+        143,
+        43,
+        "32.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2704,
+        1962,
+        142,
+        42,
+        "30.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        908,
+        1817,
+        621,
+        50,
+        "Design/Production Services"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        912,
+        1921,
+        688,
+        46,
+        "2-25 Canon Color Output 11x17"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        908,
+        1975,
+        1546,
+        46,
+        "Color Flatbed Scan"
+      ]
+    },
+    {
+      "classification_label": "main|||net_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2708,
+        2991,
+        168,
+        43,
+        "792.00"
+      ]
+    },
+    {
+      "classification_label": "main|||tax_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2758,
+        3108,
+        117,
+        42,
+        "0.00"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2707,
+        3168,
+        169,
+        44,
+        "792.00"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2687,
+        3370,
+        193,
+        42,
+        "792.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        916,
+        1867,
+        617,
+        46,
+        "1 Canon Color Output 11x17"
+      ]
+    }
+  ]
+}

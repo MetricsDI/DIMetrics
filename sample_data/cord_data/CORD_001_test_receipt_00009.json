@@ -1,0 +1,223 @@
+{
+    "dontcare": [],
+    "valid_line": [
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 74,
+                        "y3": 434,
+                        "x3": 74,
+                        "y4": 434,
+                        "x1": 30,
+                        "y1": 412,
+                        "x4": 30,
+                        "y2": 412
+                    },
+                    "is_key": 1,
+                    "row_id": 2140536,
+                    "text": "Sub"
+                },
+                {
+                    "quad": {
+                        "x2": 126,
+                        "y3": 434,
+                        "x3": 126,
+                        "y4": 434,
+                        "x1": 76,
+                        "y1": 410,
+                        "x4": 76,
+                        "y2": 410
+                    },
+                    "is_key": 1,
+                    "row_id": 2140536,
+                    "text": "Total"
+                },
+                {
+                    "quad": {
+                        "x2": 328,
+                        "y3": 446,
+                        "x3": 328,
+                        "y4": 446,
+                        "x1": 264,
+                        "y1": 424,
+                        "x4": 264,
+                        "y2": 424
+                    },
+                    "is_key": 0,
+                    "row_id": 2140537,
+                    "text": "36000"
+                }
+            ],
+            "category": "sub_total.subtotal_price",
+            "group_id": 16
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 176,
+                        "y3": 474,
+                        "x3": 176,
+                        "y4": 474,
+                        "x1": 30,
+                        "y1": 448,
+                        "x4": 30,
+                        "y2": 448
+                    },
+                    "is_key": 1,
+                    "row_id": 2140538,
+                    "text": "Discount (0%)"
+                }
+            ],
+            "category": "sub_total.discount_price",
+            "group_id": 16
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 90,
+                        "y3": 508,
+                        "x3": 90,
+                        "y4": 508,
+                        "x1": 28,
+                        "y1": 486,
+                        "x4": 28,
+                        "y2": 486
+                    },
+                    "is_key": 1,
+                    "row_id": 2140540,
+                    "text": "Tunai"
+                },
+                {
+                    "quad": {
+                        "x2": 328,
+                        "y3": 520,
+                        "x3": 328,
+                        "y4": 520,
+                        "x1": 264,
+                        "y1": 496,
+                        "x4": 264,
+                        "y2": 496
+                    },
+                    "is_key": 0,
+                    "row_id": 2140541,
+                    "text": "50000"
+                }
+            ],
+            "category": "total.cashprice",
+            "group_id": 18
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 136,
+                        "y3": 586,
+                        "x3": 136,
+                        "y4": 586,
+                        "x1": 28,
+                        "y1": 562,
+                        "x4": 28,
+                        "y2": 562
+                    },
+                    "is_key": 1,
+                    "row_id": 2140543,
+                    "text": "Kembalian"
+                },
+                {
+                    "quad": {
+                        "x2": 328,
+                        "y3": 594,
+                        "x3": 328,
+                        "y4": 594,
+                        "x1": 266,
+                        "y1": 572,
+                        "x4": 266,
+                        "y2": 572
+                    },
+                    "is_key": 0,
+                    "row_id": 2140543,
+                    "text": "14000"
+                }
+            ],
+            "category": "total.changeprice",
+            "group_id": 18
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 238,
+                        "y3": 351,
+                        "x3": 237,
+                        "y4": 344,
+                        "x1": 32,
+                        "y1": 318,
+                        "x4": 31,
+                        "y2": 326
+                    },
+                    "is_key": 0,
+                    "row_id": 2140534,
+                    "text": "Bumbu Kaldu Ayam 1"
+                }
+            ],
+            "category": "menu.nm",
+            "group_id": 19
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 98,
+                        "y3": 372,
+                        "x3": 98,
+                        "y4": 372,
+                        "x1": 32,
+                        "y1": 348,
+                        "x4": 32,
+                        "y2": 348
+                    },
+                    "is_key": 0,
+                    "row_id": 2140535,
+                    "text": "36000"
+                }
+            ],
+            "category": "menu.unitprice",
+            "group_id": 19
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 328,
+                        "y3": 358,
+                        "x3": 328,
+                        "y4": 358,
+                        "x1": 264,
+                        "y1": 336,
+                        "x4": 264,
+                        "y2": 336
+                    },
+                    "is_key": 0,
+                    "row_id": 2140534,
+                    "text": "36000"
+                }
+            ],
+            "category": "menu.price",
+            "group_id": 19
+        }
+    ],
+    "meta": {
+        "version": "v0.1",
+        "split": "test",
+        "image_id": 9,
+        "image_size": {
+            "width": 576,
+            "height": 864
+        }
+    },
+    "roi": {},
+    "repeating_symbol": []
+}

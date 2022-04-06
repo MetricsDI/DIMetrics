@@ -1,0 +1,199 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        229,
+        273,
+        1397,
+        161,
+        "New York State Association of Tobacco and Candy Distributorst Inc"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        245,
+        562,
+        567,
+        61,
+        "405 Park Avenue"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        249,
+        636,
+        330,
+        48,
+        "New York"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1017,
+        599,
+        176,
+        51,
+        "New York 10022"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1831,
+        1095,
+        140,
+        47,
+        "9261"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1675,
+        1016,
+        593,
+        71,
+        "November 1, 1905"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2445,
+        2495,
+        217,
+        52,
+        "919.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        297,
+        1304,
+        2071,
+        842,
+        "For professional services rendered in connection with the matter of Save More Markets v. Chu, et al. , including telephone conferences with co-counsel and staff of the Attorney General\u2019s office and the New York State Department of Taxation and Finance, review of prior pleadings, attention to the motion to intervene, and all related legal research, tele\u00ac phone communications, correspondence and advice and counsel to October 31, 1985 "
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2416,
+        1999,
+        218,
+        52,
+        "852.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        1377,
+        2299,
+        178,
+        48,
+        "21.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        1416,
+        2361,
+        143,
+        48,
+        "4.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        1382,
+        2424,
+        181,
+        48,
+        "42.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        428,
+        2333,
+        410,
+        59,
+        "Photocopies"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        432,
+        2407,
+        326,
+        48,
+        "Postage"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        436,
+        2453,
+        444,
+        69,
+        "Express Mail"
+      ]
+    }
+  ]
+}

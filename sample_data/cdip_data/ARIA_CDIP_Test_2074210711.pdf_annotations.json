@@ -1,0 +1,641 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        214,
+        442,
+        1366,
+        84,
+        "Applied Graphics Technologies, inc."
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        342,
+        596,
+        340,
+        41,
+        "Emerson Street"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        217,
+        653,
+        233,
+        47,
+        "Rochester,"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        554,
+        658,
+        129,
+        38,
+        "NY 14606"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2867,
+        387,
+        79,
+        38,
+        "589"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2758,
+        446,
+        188,
+        37,
+        "09/30/96"
+      ]
+    },
+    {
+      "classification_label": "main|||tax_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2787,
+        3413,
+        196,
+        41,
+        "9,038.63"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2275,
+        1937,
+        17,
+        30,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2279,
+        2050,
+        13,
+        29,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2275,
+        2158,
+        17,
+        34,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2275,
+        2271,
+        13,
+        33,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2272,
+        2383,
+        15,
+        34,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2271,
+        2496,
+        20,
+        33,
+        "2"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2271,
+        2608,
+        12,
+        29,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2267,
+        2717,
+        16,
+        33,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        2267,
+        2829,
+        16,
+        29,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        2267,
+        2938,
+        12,
+        33,
+        "1"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2396,
+        1937,
+        212,
+        34,
+        "$12693,00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2396,
+        2046,
+        208,
+        37,
+        "$19995.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2421,
+        2158,
+        183,
+        38,
+        "$7000.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2421,
+        2271,
+        183,
+        33,
+        "$3750.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2393,
+        2383,
+        208,
+        34,
+        "$13287.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2391,
+        2496,
+        209,
+        33,
+        "$16902.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2412,
+        2607,
+        184,
+        30,
+        "$4995.60"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2412,
+        2717,
+        187,
+        37,
+        "$9995.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        2412,
+        2828,
+        188,
+        34,
+        "$6737.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        2412,
+        2937,
+        184,
+        37,
+        "$7000.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2783,
+        1937,
+        221,
+        38,
+        "$12,693.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2783,
+        2046,
+        221,
+        37,
+        "$19,995.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2808,
+        2158,
+        192,
+        38,
+        "$7,000,00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2804,
+        2271,
+        196,
+        37,
+        "$3,750.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2779,
+        2383,
+        221,
+        38,
+        "$13,287.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2775,
+        2496,
+        221,
+        34,
+        "$33,804.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2800,
+        2604,
+        196,
+        38,
+        "$4,995.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2800,
+        2717,
+        196,
+        37,
+        "$9,995.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        2796,
+        2825,
+        200,
+        37,
+        "$6,737.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        2797,
+        2937,
+        195,
+        38,
+        "$7,000.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        208,
+        1937,
+        459,
+        34,
+        "Image Archive Server"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        175,
+        2046,
+        625,
+        37,
+        "Digital Link Server Software"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        204,
+        2158,
+        725,
+        38,
+        "Digital Link Photo Editor Software"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        204,
+        2271,
+        1100,
+        42,
+        "Digital Link image Archivist wf !SO Author Software"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        201,
+        2383,
+        957,
+        43,
+        "External 5-Bay, SCSI-Connected, 12GB-RAID"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        199,
+        2492,
+        638,
+        37,
+        "Pioneer DRM 500 CD Jukebox"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        196,
+        2604,
+        821,
+        46,
+        "Digital Link Storage Manager Software"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        196,
+        2716,
+        858,
+        46,
+        "Digital Link Image Database (Eight-'seat)"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        196,
+        2825,
+        512,
+        42,
+        "Digital Link Workstation"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        196,
+        2937,
+        725,
+        42,
+        "Digital Link Photo Editor Software"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2700,
+        3517,
+        271,
+        41,
+        "129,394.53"
+      ]
+    },
+    {
+      "classification_label": "main|||net_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2741,
+        3187,
+        245,
+        39,
+        "119,256.00"
+      ]
+    }
+  ]
+}

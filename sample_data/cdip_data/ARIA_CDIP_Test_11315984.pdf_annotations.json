@@ -1,0 +1,485 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        738,
+        251,
+        346,
+        54,
+        "Campus Road"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1317,
+        262,
+        271,
+        56,
+        "New Jersey"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1605,
+        268,
+        155,
+        43,
+        "New Jersey 07512"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2445,
+        1187,
+        627,
+        50,
+        "NOVEMBER 30. 1904"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2762,
+        3711,
+        288,
+        56,
+        "8,920.70"
+      ]
+    },
+    {
+      "classification_label": "main|||tax_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2842,
+        3592,
+        212,
+        45,
+        "170.23"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2070,
+        2400,
+        101,
+        47,
+        "304"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        1958,
+        2525,
+        213,
+        55,
+        "19,560"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        1957,
+        2775,
+        211,
+        54,
+        "19,560"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        1954,
+        2900,
+        213,
+        54,
+        "19,560"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2328,
+        2282,
+        176,
+        47,
+        "58.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2367,
+        2525,
+        137,
+        50,
+        "4.15"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2325,
+        2779,
+        176,
+        62,
+        "97.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2325,
+        2900,
+        175,
+        50,
+        "31.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2771,
+        2286,
+        287,
+        56,
+        "1,116.85"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2849,
+        2404,
+        213,
+        50,
+        "100.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2879,
+        2529,
+        175,
+        50,
+        "81,17"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2770,
+        2779,
+        285,
+        55,
+        "1,907.10"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2843,
+        2904,
+        211,
+        47,
+        "606.36"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 0,
+      "activity_label": "",
+      "bounding_box": [
+        1954,
+        3267,
+        213,
+        58,
+        "19,256"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2842,
+        3150,
+        215,
+        51,
+        "250.61"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2842,
+        3275,
+        212,
+        46,
+        "259.96"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2767,
+        3384,
+        283,
+        58,
+        "4,136.85"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        2875,
+        3478,
+        176,
+        48,
+        "40.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        2842,
+        3533,
+        208,
+        47,
+        "251.57"
+      ]
+    },
+    {
+      "classification_label": "main|||Item_unit_count||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        1954,
+        3267,
+        213,
+        58,
+        "19,256"
+      ]
+    },
+    {
+      "classification_label": "main|||item_unit_value||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2322,
+        3271,
+        175,
+        47,
+        "13.50"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        249,
+        1953,
+        1584,
+        364,
+        "CD, OFFICE BASED PRIMARY...OR... PTH, RESEARCH FULL-TIME HOSP? STAFF,.,OR... CLP, OFFICE BASED PRIMARY...OR,,. PH, OFFICE BASED PRIMARY.. .017. . PUD, OFFICE BASED PRIMARY & SECONDARY,,.OR.. TS - TOTAL PHYSICIANS"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        175,
+        2391,
+        1468,
+        54,
+        "SELECT AND ADDRESS YOUR SPECIAL LIST...."
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        171,
+        2641,
+        1666,
+        181,
+        "ENCLOSE ONE PIECE INTO 7X10 WHITE ENVELOPE 160 PAGE REPORT OF THE COUNCIL FOR TOBACCO RESEARCH - USA, INC. 1983"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        175,
+        2887,
+        479,
+        47,
+        "SORT AND MAIL"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        170,
+        3137,
+        664,
+        47,
+        "POSTAL SERVICE FEE"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        168,
+        3261,
+        257,
+        44,
+        "AMA FEE"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        167,
+        3371,
+        591,
+        47,
+        "POSTAGE ADVANCED"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        168,
+        3461,
+        294,
+        44,
+        "BULK FEE"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        166,
+        3517,
+        1038,
+        51,
+        "FREIGHT AND HANDLING CHARGES"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        171,
+        2516,
+        1441,
+        51,
+        "ADDITIONAL CHARGE FOR OVERSIZED MAILERS"
+      ]
+    }
+  ]
+}

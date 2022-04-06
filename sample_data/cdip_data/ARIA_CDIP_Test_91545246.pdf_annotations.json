@@ -1,0 +1,914 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_address_street||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        954,
+        761,
+        630,
+        36,
+        "CHURCH STREET STATION"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_city||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1683,
+        758,
+        271,
+        38,
+        "NEW YORK"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_address_postal_code||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2113,
+        758,
+        137,
+        34,
+        "N.Y. 10008"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2420,
+        1379,
+        162,
+        33,
+        "00252"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2424,
+        1433,
+        255,
+        30,
+        "12-05-85"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2422,
+        1875,
+        262,
+        33,
+        "4.502.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2425,
+        1932,
+        262,
+        35,
+        "3.512.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        2425,
+        1986,
+        262,
+        35,
+        "2.843.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        2425,
+        2037,
+        262,
+        34,
+        "3.278.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        2425,
+        2096,
+        262,
+        29,
+        "9.563.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        2421,
+        2150,
+        266,
+        33,
+        "3.807.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        2424,
+        2257,
+        264,
+        35,
+        "4.490.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        2424,
+        2203,
+        263,
+        34,
+        "4.310.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        2433,
+        2311,
+        734,
+        35,
+        "3.517.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        2425,
+        2371,
+        267,
+        30,
+        "3.137.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 11,
+      "activity_label": "",
+      "bounding_box": [
+        2425,
+        2425,
+        262,
+        33,
+        "3.332.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 12,
+      "activity_label": "",
+      "bounding_box": [
+        2426,
+        2479,
+        261,
+        30,
+        "3.149.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 13,
+      "activity_label": "",
+      "bounding_box": [
+        2429,
+        2536,
+        258,
+        31,
+        "7.076.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 14,
+      "activity_label": "",
+      "bounding_box": [
+        2421,
+        2592,
+        266,
+        37,
+        "2.598.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 15,
+      "activity_label": "",
+      "bounding_box": [
+        2425,
+        2645,
+        267,
+        31,
+        "4.991.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 16,
+      "activity_label": "",
+      "bounding_box": [
+        2426,
+        2699,
+        266,
+        34,
+        "5.044.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 17,
+      "activity_label": "",
+      "bounding_box": [
+        2429,
+        2762,
+        263,
+        22,
+        "4.279.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 18,
+      "activity_label": "",
+      "bounding_box": [
+        2425,
+        2812,
+        267,
+        34,
+        "2.716.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 19,
+      "activity_label": "",
+      "bounding_box": [
+        2425,
+        2862,
+        267,
+        31,
+        "3.724.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 20,
+      "activity_label": "",
+      "bounding_box": [
+        2405,
+        2924,
+        287,
+        27,
+        "6.816.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 21,
+      "activity_label": "",
+      "bounding_box": [
+        2429,
+        2975,
+        263,
+        29,
+        "4.496.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 22,
+      "activity_label": "",
+      "bounding_box": [
+        2433,
+        3028,
+        262,
+        30,
+        "7.328.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 23,
+      "activity_label": "",
+      "bounding_box": [
+        2432,
+        3079,
+        261,
+        33,
+        "3.569.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 24,
+      "activity_label": "",
+      "bounding_box": [
+        2430,
+        3136,
+        263,
+        31,
+        "3.510.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 25,
+      "activity_label": "",
+      "bounding_box": [
+        2429,
+        3192,
+        267,
+        33,
+        "8.641.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 0,
+      "activity_label": "",
+      "bounding_box": [
+        2430,
+        3136,
+        263,
+        31,
+        "3.510.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 26,
+      "activity_label": "",
+      "bounding_box": [
+        2429,
+        3254,
+        267,
+        25,
+        "2.159.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 27,
+      "activity_label": "",
+      "bounding_box": [
+        2429,
+        3300,
+        267,
+        33,
+        "2.175.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 28,
+      "activity_label": "",
+      "bounding_box": [
+        2433,
+        3354,
+        263,
+        30,
+        "2.645.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 29,
+      "activity_label": "",
+      "bounding_box": [
+        2437,
+        3407,
+        259,
+        35,
+        "1.723.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 30,
+      "activity_label": "",
+      "bounding_box": [
+        2428,
+        3466,
+        269,
+        34,
+        "2.863.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 31,
+      "activity_label": "",
+      "bounding_box": [
+        2438,
+        3521,
+        262,
+        33,
+        "1.876.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        158,
+        1882,
+        693,
+        35,
+        "ATLANTA JRNL. & CONST"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 3,
+      "activity_label": "",
+      "bounding_box": [
+        158,
+        1996,
+        430,
+        33,
+        "BOSTON HERALD"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 4,
+      "activity_label": "",
+      "bounding_box": [
+        158,
+        2050,
+        396,
+        29,
+        "BUFFALO NEWS"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 5,
+      "activity_label": "",
+      "bounding_box": [
+        158,
+        2104,
+        496,
+        33,
+        "CHICAGO TRIBUNE"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 6,
+      "activity_label": "",
+      "bounding_box": [
+        154,
+        2158,
+        638,
+        34,
+        "CINCINNATI ENQUIRER"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 7,
+      "activity_label": "",
+      "bounding_box": [
+        157,
+        2212,
+        730,
+        34,
+        "CLEVELAND PLAIN DEALER"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 8,
+      "activity_label": "",
+      "bounding_box": [
+        157,
+        2267,
+        569,
+        33,
+        "COLUMBUS DISPATCH"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 9,
+      "activity_label": "",
+      "bounding_box": [
+        159,
+        2321,
+        762,
+        34,
+        "FT UDERDALE NEWS & S."
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 10,
+      "activity_label": "",
+      "bounding_box": [
+        159,
+        2379,
+        634,
+        38,
+        "DALLAS TIMES HERALD"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 11,
+      "activity_label": "",
+      "bounding_box": [
+        158,
+        2433,
+        564,
+        34,
+        "DAYTON DAILY NEWS"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 12,
+      "activity_label": "",
+      "bounding_box": [
+        158,
+        2487,
+        363,
+        34,
+        "DENVER POST"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 13,
+      "activity_label": "",
+      "bounding_box": [
+        158,
+        2546,
+        225,
+        30,
+        "DETRIOT NEWS"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 14,
+      "activity_label": "",
+      "bounding_box": [
+        161,
+        2599,
+        531,
+        38,
+        "HARTFORD COURANT"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 15,
+      "activity_label": "",
+      "bounding_box": [
+        161,
+        2654,
+        393,
+        32,
+        "HOUSTON POST"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 16,
+      "activity_label": "",
+      "bounding_box": [
+        158,
+        2707,
+        535,
+        31,
+        "KANSAS CITY STAR"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 17,
+      "activity_label": "",
+      "bounding_box": [
+        158,
+        2761,
+        871,
+        35,
+        "LOUISVILLE COURIER JOUR"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 18,
+      "activity_label": "",
+      "bounding_box": [
+        159,
+        2817,
+        871,
+        37,
+        "LOS ANGELES HERALD EXAM"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 19,
+      "activity_label": "",
+      "bounding_box": [
+        162,
+        2870,
+        871,
+        33,
+        "MEMPHIS COMMERCIAL APPE"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 20,
+      "activity_label": "",
+      "bounding_box": [
+        162,
+        2925,
+        396,
+        33,
+        "MIAMI HERALD"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 21,
+      "activity_label": "",
+      "bounding_box": [
+        167,
+        2982,
+        558,
+        30,
+        "MILWAUKEE JOURNAL"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 22,
+      "activity_label": "",
+      "bounding_box": [
+        167,
+        3033,
+        865,
+        34,
+        "MINNEAPOLIS STAR & TRIB"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 23,
+      "activity_label": "",
+      "bounding_box": [
+        162,
+        3087,
+        601,
+        34,
+        "OMAHA WORLD HERALD"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 24,
+      "activity_label": "",
+      "bounding_box": [
+        162,
+        3146,
+        529,
+        30,
+        "ORLANDO SENTINEL"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 25,
+      "activity_label": "",
+      "bounding_box": [
+        167,
+        3199,
+        696,
+        34,
+        "PHILADELPHIA INQUIRER"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 26,
+      "activity_label": "",
+      "bounding_box": [
+        167,
+        3255,
+        595,
+        37,
+        "PROVIDENCE JOURNAL"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 27,
+      "activity_label": "",
+      "bounding_box": [
+        167,
+        3308,
+        729,
+        34,
+        "ROCHESTER DEM & CHRON."
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 28,
+      "activity_label": "",
+      "bounding_box": [
+        171,
+        3362,
+        866,
+        34,
+        "SAN ANTONIO EXPRESS-NEWS"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 30,
+      "activity_label": "",
+      "bounding_box": [
+        170,
+        3475,
+        360,
+        33,
+        "TULSA WORLD"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 31,
+      "activity_label": "",
+      "bounding_box": [
+        171,
+        3533,
+        387,
+        30,
+        "TOLEDO BLADE"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        776,
+        621,
+        1737,
+        102,
+        "Metropolitan Sunday Newspapers, Inc."
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2371,
+        3632,
+        326,
+        30,
+        "127.929.00"
+      ]
+    },
+    {
+      "classification_label": "main|||net_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2850,
+        3629,
+        325,
+        33,
+        "108.739.65"
+      ]
+    },
+    {
+      "classification_label": "main|||net_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        2850,
+        3737,
+        325,
+        34,
+        "108.739.65"
+      ]
+    }
+  ]
+}

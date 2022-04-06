@@ -1,0 +1,82 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        933,
+        521,
+        1225,
+        46,
+        "THE ONYX CONSULTING PARTNERSHIP"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1662,
+        1654,
+        184,
+        63,
+        "1015"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1979,
+        1429,
+        583,
+        63,
+        "December 19,1997"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2146,
+        2875,
+        250,
+        59,
+        "$37,500"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        396,
+        2067,
+        1683,
+        287,
+        "For Consulting Services: Newport Non-Menthol Project First Half of Project Fee"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2150,
+        2287,
+        250,
+        59,
+        "$37,500"
+      ]
+    }
+  ]
+}

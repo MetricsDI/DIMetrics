@@ -1,0 +1,69 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        796,
+        737,
+        1217,
+        60,
+        "UNITED SMOKERS ASSOCIATION"
+      ]
+    },
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        492,
+        1196,
+        154,
+        46,
+        "PM4-1"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        462,
+        2608,
+        255,
+        53,
+        "25,000.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        466,
+        2154,
+        1694,
+        133,
+        "Advertisement in American Smoker's Journal, fall 1994 (Stick Cover, four- color Accomodation Ad)."
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2141,
+        1104,
+        438,
+        50,
+        "November 25,1994"
+      ]
+    }
+  ]
+}

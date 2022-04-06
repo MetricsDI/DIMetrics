@@ -1,0 +1,95 @@
+{
+  "1": [
+    {
+      "classification_label": "main|||invoice_number||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        795,
+        779,
+        217,
+        41,
+        "334635"
+      ]
+    },
+    {
+      "classification_label": "main|||issued_date||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        792,
+        908,
+        408,
+        42,
+        "20 Dec 1990"
+      ]
+    },
+    {
+      "classification_label": "main|||total_amount||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2133,
+        3575,
+        254,
+        50,
+        "197.00"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        392,
+        2617,
+        983,
+        46,
+        "TOTAL PROFESSIONAL FEE DUE"
+      ]
+    },
+    {
+      "classification_label": "main|||item_description||line_items",
+      "class_probability": 101.0,
+      "group_label": 2,
+      "activity_label": "",
+      "bounding_box": [
+        387,
+        2929,
+        1213,
+        54,
+        "TOTAL OUT-OF-POCKET EXPENSES DUE"
+      ]
+    },
+    {
+      "classification_label": "main|||item_total||line_items",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        2258,
+        2629,
+        142,
+        50,
+        ".00"
+      ]
+    },
+    {
+      "classification_label": "main|||vendor_name||primary_fields",
+      "class_probability": 101.0,
+      "group_label": 1,
+      "activity_label": "",
+      "bounding_box": [
+        1643,
+        412,
+        1182,
+        42,
+        "LANDOR ASSOCIATES"
+      ]
+    }
+  ]
+}
