@@ -6,7 +6,7 @@ Functions to assess performance using HED metric.
 
 import numpy as np
 from collections import defaultdict
-from .edit_distance import lc_subsequence
+from .textual import lc_subsequence
 
 __ALL__ = [
     "cumulative_lcs",
