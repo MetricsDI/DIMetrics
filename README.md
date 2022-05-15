@@ -44,7 +44,7 @@ pred = "abcabcabdddcabcabcabc"
 ## Currently implemented metrics
 Currently implemented metrics can be found in `dime`. All code is in Python 3.
 
-* Levenshtine Distance
+* Levenshtein Distance
 * Longest Common Substring Distance
 
 * Intersection over Union (Convex Hull, Grouped)
@@ -65,7 +65,7 @@ See `Evaluations` to view example code for evaluations of models and datasets RV
 ``` latex
 @misc{degange2021dimetrics,
     title={DI-Metrics: Standardized Metrics for Document Intelligence},
-    author={J.DeGange, Z. Han, S. Gupta, A. Karwan },
+    author={J.DeGange, Z. Han, S. Gupta, K. Wilkosz, A. Karwan},
     year={2021},
     eprint={TBD},
     archivePrefix={arXiv},
