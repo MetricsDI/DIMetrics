@@ -4,7 +4,7 @@
 Metrics to assess performance on textual evaluation.
 """
 
-from unicodedata import normalize
+from unicodedata import normalize as normalize_str
 
 import cython
 import numpy as np
@@ -150,6 +150,6 @@ def str_exact_match(y_true: str, y_pred: str, unicode_normalize: bool = False):
     :return: True if matching; False if not matching
     """
     if unicode_normalize:
-        return normalize('NFKD', y_true) == normalize('NFKD', y_pred)
+        return normalize_str('NFKD', y_true) == normalize_str('NFKD', y_pred)
     else:
         return y_true == y_pred
