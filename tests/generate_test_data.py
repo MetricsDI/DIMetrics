@@ -42,4 +42,4 @@ def generate_test_data(fpath, count):
 
 
 if __name__ == "__main__":
-	generate_test_data('levenshtein_test_data.csv', 1000)
+	generate_test_data('str_distance_test_data.csv', 1000)
