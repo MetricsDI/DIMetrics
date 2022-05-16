@@ -1,7 +1,4 @@
-import os
 import re
-
-import pandas as pd
 
 from .geometric import iou
 from .preprocessing import *
@@ -615,7 +612,7 @@ class Metrics:
         boxBArea = (boxB[2] - boxB[0] + 1) * (boxB[3] - boxB[1] + 1)
         # compute the intersection over union by taking the intersection
         # area and dividing it by the sum of prediction + ground-truth
-        # areas - the interesection area
+        # areas - the intersection area
         iou = round(interArea / float(boxAArea + boxBArea - interArea), 3)
         # return the intersection over union value
         return iou
