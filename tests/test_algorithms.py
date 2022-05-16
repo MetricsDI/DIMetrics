@@ -1,5 +1,4 @@
 import os
-from os import path
 import timeit
 
 import numpy as np
@@ -174,6 +173,15 @@ def test_uhed():
 
 
 def performance_print(stmt, setup='', number=PERF_MEASUREMENT_REPETITION, repeat=PERF_MEASUREMENT_LOOPS, verbose=False):
+    """
+    Adapted from timeit module.
+    :param stmt: Statement measured.
+    :param setup: Imports and other setup of the test.
+    :param number: number of loops of the code in one test.
+    :param repeat: number of repetitions of the test.
+    :param verbose: as in timeit module
+    :return: None
+    """
     tmr = timeit.Timer(setup=setup, stmt=stmt)
     raw_timings = tmr.repeat(number, repeat)
 
