@@ -1,21 +1,21 @@
-import dime.hm.LineItemMetrics as LIM
+import os
+from os import path
+import timeit
+
 import numpy as np
-import pandas as pd
 
 from dime.geometric import iou
 from dime.hed import hed
 from dime.textual import levenshtein_distance, lc_subsequence, lc_subsequence_torch
-from dime.token_classification import proc_token_classification
 from dime.uhed import uhed
 
+import dime.hm.LineItemMetrics as LIM
 
-# to do add pytest
 
-def test_token_class():
-    pref = [['O', 'O', 'O', 'B-MISC', 'I-MISC', 'I-MISC', 'O'], ['B-PER', 'I-PER', 'O']]
-    ref = [['O', 'O', 'B-MISC', 'I-MISC', 'I-MISC', 'I-MISC', 'O'], ['B-PER', 'I-PER', 'O']]
-    (p, r, f1) = proc_token_classification(pref, ref)
-    assert p == 0.5
+# timeit parameters for performance measurement
+PERF_MEASUREMENT_REPETITION = 5
+PERF_MEASUREMENT_LOOPS = 10
+PERF_TEST_DATA_FILE = 'str_distance_test_data.csv'
 
 
 def test_lcs():
@@ -161,26 +161,97 @@ def test_uhed():
     assert doc_missing[1] == doc_extra[2]
 
 
-def test_hm():
-    input_file = 'tests/sample_file.csv'
-    df = pd.read_csv(input_file)
-    df.rename(columns={'Original_Map_Label': 'Map_Name_Original', 'Grouping': 'lineitem_original'}, inplace=True)
+# def test_hm():
+#     input_file = 'tests/sample_file.csv'
+#     df = pd.read_csv(input_file)
+#     df.rename(columns={'Original_Map_Label': 'Map_Name_Original', 'Grouping': 'lineitem_original'}, inplace=True)
+#
+#     df['idx'] = df.index
+#     df_groups = df.groupby(['fileId', 'PageNumber'])
+#     num_invoices = len(df_groups)
+#     lim1 = LIM.LineItemMetric(df_groups=df_groups)
+#     partialMatch_report = lim1._get_metrics()
 
-    df['idx'] = df.index
-    df_groups = df.groupby(['fileId', 'PageNumber'])
-    num_invoices = len(df_groups)
-    lim1 = LIM.LineItemMetric(df_groups=df_groups)
-    partialMatch_report = lim1._get_metrics()
+
+def performance_print(stmt, setup='', number=PERF_MEASUREMENT_REPETITION, repeat=PERF_MEASUREMENT_LOOPS, verbose=False):
+    tmr = timeit.Timer(setup=setup, stmt=stmt)
+    raw_timings = tmr.repeat(number, repeat)
+
+    units = {"nsec": 1e-9, "usec": 1e-6, "msec": 1e-3, "sec": 1.0}
+    precision = 3
+
+    def format_time(dt):
+        scales = [(scale, unit) for unit, scale in units.items()]
+        scale, unit = scales[-1]
+        for scale, unit in sorted(scales, reverse=True):
+            if dt >= scale:
+                break
+
+        return "%.*g %s" % (precision, dt / scale, unit)
+
+    if verbose:
+        print("raw times: %s\n" % ", ".join(map(format_time, raw_timings)))
+
+    timings = [dt / number for dt in raw_timings]
+
+    best = min(timings)
+    print("%d loop%s, best of %d: %s per loop"
+          % (number, 's' if number != 1 else '',
+             repeat, format_time(best)))
+
+    best = min(timings)
+    worst = max(timings)
+    if worst >= best * 4:
+        import warnings
+        warnings.warn_explicit("The test results are likely unreliable. "
+                               "The worst time (%s) was more than four times "
+                               "slower than the best time (%s)."
+                               % (format_time(worst), format_time(best)),
+                               UserWarning, '', 0)
+
+
+def _perf_test_fun(fun_name, module_name, optimization_type):
+    print(f"\n{optimization_type} version of function '{module_name} > {fun_name}'")
+    performance_print(stmt=f'[{fun_name}(*ln.strip().split("\t")) '
+                           f'for ln in open("{PERF_TEST_DATA_FILE}", "rt").readlines()]',
+                      setup=f"from {module_name} import {fun_name}")
+
+
+def test_perf_levenshtein_distance():
+    _perf_test_fun('levenshtein_distance', 'dime.textual', 'Cython-compiled')
+
+
+def test_perf_levenshtein_distance2():
+    _perf_test_fun('levenshtein_distance', 'tests.textual2', 'Standard python')
+
+
+def test_perf_levenshtein_distance3():
+    _perf_test_fun('levenshtein_distance', 'tests.textual3', 'Numba')
+
+
+def test_perf_lc_subsequence():
+    _perf_test_fun('lc_subsequence', 'dime.textual', 'Cython-compiled')
+
+
+def test_perf_lc_subsequence2():
+    _perf_test_fun('lc_subsequence', 'tests.textual2', 'Standard python')
+
+
+def test_perf_lc_subsequence3():
+    _perf_test_fun('lc_subsequence', 'tests.textual3', 'Numba')
+
+
+def test_perf_str_exact_match2():
+    _perf_test_fun('str_exact_match', 'dime.textual', 'Standard python')
+
+
+def test_perf_str_exact_match():
+    _perf_test_fun('str_exact_match', 'tests.textual2', 'Cython-compiled')
+
+
+def test_perf_str_exact_match3():
+    _perf_test_fun('str_exact_match', 'tests.textual3', 'Numba')
 
 
 if __name__ == "__main__":
-    test_token_class()
-    test_lcs()
-    test_lcs_torch()
-    test_lev()
-    test_iou()
-    test_hed()
-    test_uhed()
-    test_hm()
-
-    print("PASS")
+    print(f"Run tests using the following commands:\n\tcd {os.curdir}\n\tpytest")
