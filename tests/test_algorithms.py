@@ -5,7 +5,7 @@ import numpy as np
 
 from dime.geometric import iou
 from dime.hed import hed
-from dime.textual import levenshtein_distance, lc_subsequence, lc_subsequence_torch
+from dime.textual import levenshtein_distance, lc_subsequence
 from dime.uhed import uhed
 
 import dime.hm.LineItemMetrics as LIM
@@ -21,13 +21,6 @@ def test_lcs():
     pred = "abc"
     ref = "aaabc"
     tp, fp, fn = lc_subsequence(pred, ref)
-    assert tp == 3.0
-
-
-def test_lcs_torch():
-    pred = "abc"
-    ref = "aaabc"
-    tp, fp, fn = lc_subsequence_torch(pred, ref)
     assert tp == 3.0
 
 
