@@ -17,12 +17,12 @@ __ALL__ = [
 ]
 
 try:
-    import pyximport
-    pyximport.install()
-    # noinspection PyUnresolvedReferences
-    from _textual import _levenshtein_distance
-    levenshtein_distance = _levenshtein_distance
-except:
+    import pyximport; pyximport.install()
+    from ._textual import _levenshtein_distance as levenshtein_distance
+except ImportError as ie:
+    # import traceback
+    # traceback.print_exc()
+
     # def levenshtein_distance(y_true: str, y_pred: str, normalize: bool = False):
     # noinspection PyUnresolvedReferences
     @cython.compile
