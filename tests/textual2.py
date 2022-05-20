@@ -17,6 +17,8 @@ except ImportError:
 
 __ALL__ = [
     "levenshtein_distance",
+    "levenshtein_distance_cython",
+    "levenshtein_distance_cython_numpy",
     "lc_subsequence",
     "lc_subsequence_torch",
     "str_exact_match",
@@ -138,3 +140,42 @@ def str_exact_match(y_true, y_pred, unicode_normalize=False):
     else:
         return y_true == y_pred
 
+
+# noinspection PyUnresolvedReferences
+@cython.compile
+@cython.locals(i=cython.int, j=cython.int, eps=cython.float)
+def levenshtein_distance_cython(str1, str2):
+    edits = [[x for x in range(len(str1) + 1)] for y in range(len(str2) + 1)]
+    for i in range(1, len(str2) + 1):
+        edits[i][0] = edits[i - 1][0] + 1
+    for i in range(1, len(str2) + 1):
+        for j in range(1, len(str1) + 1):
+            if str2[i - 1] == str1[j - 1]:
+                edits[i][j] = edits[i - 1][j - 1]
+            else:
+                edits[i][j] = 1 + min(edits[i - 1][j - 1], edits[i][j - 1], edits[i - 1][j])
+        return edits[-1][-1]
+
+
+# noinspection PyUnresolvedReferences
+@cython.compile
+@cython.locals(i=cython.int, j=cython.int, len_str1=cython.int,  len_str2=cython.int, eps=cython.float)
+def levenshtein_distance_cython_numpy(str1, str2):
+    len_str1 = len(str1) + 1
+    len_str2 = len(str2) + 1
+    # suggestion from: https://stackoverflow.com/a/46231169/6573902
+    edits = np.empty((len_str2, len_str1), dtype=np.int32)
+    line = np.arange(0, len_str1)
+    edits[:] = line[None, :]
+    first_col = np.arange(0, len_str2)
+    edits[:, 0] = first_col
+    for i in range(1, len_str2):
+        i_less = i - 1
+        for j in range(1, len_str1):
+            j_less = j - 1
+            if str2[i_less] == str1[j_less]:
+                edits[i][j] = edits[i_less][j_less]
+            else:
+                edits[i][j] = 1 + min(edits[i_less][j_less], edits[i][j_less], edits[i_less][j])
+
+    return edits[-1][-1]

@@ -9,6 +9,7 @@ from dime.textual import levenshtein_distance, lc_subsequence
 from dime.uhed import uhed
 
 import dime.hm.LineItemMetrics as LIM
+import cython
 
 
 # timeit parameters for performance measurement
@@ -216,6 +217,14 @@ def _perf_test_fun(fun_name, module_name, optimization_type):
     performance_print(stmt=f'[{fun_name}(*ln.strip().split("\t")) '
                            f'for ln in open("{PERF_TEST_DATA_FILE}", "rt").readlines()]',
                       setup=f"from {module_name} import {fun_name}")
+
+
+def test_perf_levenshtein_distance_a():
+    _perf_test_fun('levenshtein_distance_cython_numpy', 'tests.textual2', 'Cython-compiled NumPy')
+
+
+def test_perf_levenshtein_distance_b():
+    _perf_test_fun('levenshtein_distance_cython', 'tests.textual2', 'Cython-compiled inline')
 
 
 def test_perf_levenshtein_distance():
