@@ -1,7 +1,7 @@
 # #!/usr/bin/env python3
 
 # """
-# The :mod:`di_metrics` module includes several geometric, textual and heirarchical metrics 
+# The :mod:`di_metrics` module includes several geometric, textual and hierarchical metrics
 # for evaluation of key-value pair extraction in documents.
 # """
 from dime import *
