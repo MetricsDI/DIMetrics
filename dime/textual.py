@@ -20,9 +20,6 @@ try:
     import pyximport; pyximport.install()
     from ._textual import _levenshtein_distance as levenshtein_distance
 except ImportError as ie:
-    # import traceback
-    # traceback.print_exc()
-
     # def levenshtein_distance(y_true: str, y_pred: str, normalize: bool = False):
     # noinspection PyUnresolvedReferences
     @cython.compile
@@ -92,7 +89,7 @@ def lc_subsequence(y_true, y_pred):
     fp = n - tp
     fn = m - tp
 
-    return np.array([tp, fp, fn])
+    return tp, fp, fn
 
 
 def str_exact_match(y_true: str, y_pred: str, unicode_normalize: bool = False):
