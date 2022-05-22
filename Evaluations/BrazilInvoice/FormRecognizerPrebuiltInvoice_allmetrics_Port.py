@@ -33,8 +33,8 @@ def main(GT_DIR, PRED_DIR, multiplier, LineItemPrefix, field_mapping, save_dir):
 
 
 if __name__ == "__main__":
-    GT_DIR = '../datasets/cdip_data/'
-    PRED_DIR = '../datasets/model_preds/FR/cdip/'
+    GT_DIR = '../sample_data/cdip_data/'
+    PRED_DIR = '../sample_data/model_preds/FR/cdip/'
     multiplier = 300
     LineItemPrefix = 'Item'
     field_mapping = {

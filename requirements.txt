@@ -14,4 +14,4 @@ openpyxl
 seqeval
 mock
 torchstruct
-
+xmltodict

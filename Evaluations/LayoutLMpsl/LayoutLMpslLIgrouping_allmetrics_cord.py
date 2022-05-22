@@ -39,7 +39,7 @@ def main(GT_DIR, GT_Lineitem_DIR, PRED_DIR, LineItemPrefix, address_labels, gt_l
 
 if __name__ == "__main__":
     GT_DIR = '../../sample_data/cord_data/'
-    GT_Lineitem_DIR = '../datasets/cord_lineitems'
+    GT_Lineitem_DIR = '../sample_data/cord_lineitems'
     PRED_DIR = '../../sample_data/model_preds/layoutlm/cord/'
 
     LineItemPrefix = ['menu.nm', 'menu.unitprice', 'menu.cnt', 'menu.price']

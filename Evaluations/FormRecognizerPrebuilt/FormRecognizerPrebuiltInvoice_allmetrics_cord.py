@@ -33,10 +33,11 @@ def main(GT_DIR, GT_Lineitem_DIR, PRED_DIR, multiplier, LineItemPrefix, field_ma
         writer.save()
     print(f"Saving all metcis in {save_dir}...")
 
+
 if __name__ == "__main__":
-    GT_DIR = '../datasets/cord_data/'
-    GT_Lineitem_DIR = '../datasets/cord_lineitems'
-    PRED_DIR = '../datasets/model_preds/FR/cord/'
+    GT_DIR = '../sample_data/cord_data/'
+    GT_Lineitem_DIR = '../sample_data/cord_lineitems'
+    PRED_DIR = '../sample_data/model_preds/FR/cord/'
     multiplier = 1
     LineItemPrefix = 'Item'
     field_mapping = {
