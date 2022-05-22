@@ -1,1 +1,1 @@
-dataset of JSON can be obtained from Rehaan, Gene Xu or Jonathan DeGange, EY
+dataset of JSON can be obtained from Jonathan DeGange, EY (Jonathan.DeGange@ey.com)
