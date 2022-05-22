@@ -49,11 +49,12 @@ def main(GT_JSON_DIR, GT_Line_DIR, PRED_XML_DIR, PRED_JSON_DIR, cdip2deep, save_
 
     print(f"Saving all metrics in {save_dir}...")
 
-if __name__ == "__main__":
+if __name__ == "__main__":  
     GT_JSON_DIR = '../sample_data/cdip_data/'
     GT_Line_DIR = '../sample_data/cdip_lineitems/'
-    PRED_JSON_DIR = '../sample_data/model_preds/deepcpcfg/cdip/json'
-    PRED_XML_DIR = '../sample_data/model_preds/deepcpcfg/cdip/xml/'
+    # Please get predicted data from get_dataset.sh
+    PRED_JSON_DIR = 'datasets/rvl-cdip/predictions/json/'
+    PRED_XML_DIR = 'datasets/rvl-cdip/predictions/xml/'
 
     cdip2deep = {"main|||item_description||line_items": "ItemDescription",
                  'main|||issued_date||primary_fields': 'IssuedDate',
