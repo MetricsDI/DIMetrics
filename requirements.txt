@@ -1,7 +1,6 @@
 cython
 pybind11
 numpy
-torch>=1.0.0
 pandas
 pdf2image
 matplotlib
@@ -15,5 +14,7 @@ openpyxl
 pytest
 seqeval
 mock
+scipy
+setuptools
 torchstruct
-
+requests
