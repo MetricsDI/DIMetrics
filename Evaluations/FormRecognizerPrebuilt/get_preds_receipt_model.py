@@ -18,15 +18,15 @@ def runAnalysis(input_file, output_file, file_type):
     if os.path.exists(output_file):
         return
     # Endpoint URL
-    endpoint = r"https://form-swapnil.cognitiveservices.azure.com/"
+    endpoint = r""
     # Subscription Key
-    apim_key = "a9bb1ace92ea459180e9acc99facd05a"
+    apim_key = ""
     # Model ID
     model_id = ""
     # API version
     API_version = "v2.1-preview.3"
 
-    post_url = "https://form-swapnil.cognitiveservices.azure.com/formrecognizer/v2.1-preview.3/prebuilt/receipt/analyze?includeTextDetails=true&locale=en-US"
+    post_url = ""
     params = {
         "includeTextDetails": True
     }

@@ -26,7 +26,7 @@ def runAnalysis(input_file, output_file, file_type):
     # API version
     API_version = "v2.1-preview.3"
 
-    post_url = "https://form-swapnil.cognitiveservices.azure.com/formrecognizer/v2.1-preview.3/prebuilt/invoice/analyze"
+    post_url = ""
     params = {
         "includeTextDetails": True
     }
