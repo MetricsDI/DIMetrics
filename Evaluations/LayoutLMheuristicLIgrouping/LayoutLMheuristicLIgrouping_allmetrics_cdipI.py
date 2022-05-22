@@ -36,10 +36,10 @@ def main(GT_DIR, GT_Lineitem_DIR, PRED_DIR, LineItemPrefix, address_labels, gt_l
 
 
 if __name__ == "__main__":
-    GT_DIR = '../datasets/cdip_data/'
-    GT_Lineitem_DIR = '../datasets/cdip_lineitems'
+    GT_DIR = '../sample_data/cdip_data/'
+    GT_Lineitem_DIR = '../sample_data/cdip_lineitems'
     LineItemPrefix = 'item'
-    PRED_DIR = '../datasets/model_preds/layoutlm/cdip/heuristic_rule/'
+    PRED_DIR = '../sample_data/model_preds/layoutlm/cdip/heuristic_rule/'
     address_labels = {'main|||vendor_address_street||primary_fields',
                       'main|||vendor_address_city||primary_fields',
                       'main|||vendor_address_postal_code||primary_fields',
