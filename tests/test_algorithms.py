@@ -9,7 +9,6 @@ from dime.textual import levenshtein_distance, lc_subsequence
 from dime.uhed import uhed
 
 import dime.hm.LineItemMetrics as LIM
-import cython
 
 
 # timeit parameters for performance measurement
