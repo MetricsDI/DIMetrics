@@ -537,13 +537,13 @@ def get_dicts(df, ListPrefix="Item"):
 
 
 def get_item_df(item_rows):
-    """Summary
+    """Combine each group of list item elements into list items using group_label
 
     Args:
-        item_rows ([type]): [description]
+        item_rows (pd.DataFrame): DataFrame containing list item elements separately
 
     Returns:
-        [type]: [description]
+        item_df (pd.DataFrame): DataFrame containing list items with combined text and bounding box
     """
     items = []
     for i, group in item_rows.groupby(['group_label']):
