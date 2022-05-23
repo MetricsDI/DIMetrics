@@ -17,8 +17,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="dime",
     version="0.0.1",
-    author="Swapnil Gupta, Jonathan DeGange, Zhuoyu Han, Adam Karwan, Krzysztof Wilkosz.",
-    author_emails= {"500swapnil@gmail.com","jdegange85@gmail.com"},
+    author="Swapnil Gupta, Jonathan DeGange, Zhuoyu Han, Adam Karwan, Krzysztof Wilkosz",
+    author_emails={"500swapnil@gmail.com", "jdegange85@gmail.com", "krzysztof.wilkosz@gmail.com"},
     description="A library for computing Document Intelligence metrics for key-value pair extraction.",
     long_description=long_description,
     long_description_content_type="text/markdown",
