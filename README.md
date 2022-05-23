@@ -1,4 +1,4 @@
-# DI-MEtrics: Metrics for Hierarchical Document Information Extraction Evaluation
+# DI-Metrics: Metrics for Hierarchical Document Information Extraction Evaluation
 
 
 [![Coverage Status](https://coveralls.io/repos/github/jdegange/di_metrics/badge.svg?t=DQs1Fr)](https://coveralls.io/github/jdegange/di_metrics)
