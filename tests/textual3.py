@@ -6,15 +6,24 @@ Metrics to assess performance on textual evaluation.
 
 from unicodedata import normalize
 
+import numba
+
 import numpy as np
+try:
+    import torch
+    TORCH = True
+except ImportError:
+    TORCH = False
+
 
 __ALL__ = [
     "levenshtein_distance",
     "lc_subsequence",
+    "lc_subsequence_torch",
     "str_exact_match",
 ]
 
-
+@numba.jit
 def levenshtein_distance(y_true: str, y_pred: str, normalize: bool = False):
     """
     Computes the Levenshtein Edit Distance between two strings.
@@ -44,7 +53,7 @@ def levenshtein_distance(y_true: str, y_pred: str, normalize: bool = False):
         return 1 - distances[-1] / (len(s2) + eps)
     return distances[-1]
 
-
+@numba.jit
 def lc_subsequence(y_true: str, y_pred: str, ret_dp_table=False):
     """
     Computes TP, FP, FN using longest common subsequence between two strings.
@@ -76,6 +85,43 @@ def lc_subsequence(y_true: str, y_pred: str, ret_dp_table=False):
         return np.array([tp, fp, fn])
 
 
+def lc_subsequence_torch(y_true: str, y_pred: str, ret_dp_table: bool=False, device: str='cpu'):
+    """
+    Computes TP, FP, FN using longest common subsequence between two strings using PyTorch
+   :param str y_true: ground_truth/inference string
+   :param str y_pred: predicted/reference string
+    :returns:
+        [tp, fp, fn] (numpy array): Number of True Positives, False Positives, False Negatives
+    """
+    if TORCH:
+        m = len(y_true)
+        n = len(y_pred)
+        dp_table = torch.zeros((m + 1, n + 1),device=device)
+        # iterate bottom up
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                prev_i = i - 1
+                prev_j = j - 1
+                if y_true[prev_i] == y_pred[prev_j]:
+                    dp_table[prev_i, prev_j] = 1 + dp_table[prev_i - 1, prev_j - 1]
+                else:
+                    dp_table[prev_i, prev_j] = torch.max(dp_table[prev_i, prev_j - 1],
+                                                   dp_table[prev_i - 1, prev_j])
+        if device !='cpu':
+            dp_table = dp_table.detach().cpu()
+
+        tp = dp_table[m - 1, n - 1]
+        tp = float(tp.numpy())
+        fp = n - tp
+        fn = m - tp
+        if ret_dp_table:
+            return (tp, fp, fn), dp_table
+        else:
+            return (tp, fp, fn)
+    else:
+        return lc_subsequence(y_true, y_pred, ret_dp_table)
+
+@numba.jit
 def str_exact_match(y_true: str, y_pred: str, unicode_normalize: bool = False):
     """
     Computes exact match between two strings.
