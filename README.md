@@ -13,7 +13,7 @@ Purpose of DIME:<br/>
 3. `Learning over discrete metrics` <br/>
 
 ## Paper
-[Document Intelligence Metrics for Visually Rich Document Evaluation]([https://tbd.tbd.com](https://arxiv.org/pdf/2205.11215.pdf))
+[Document Intelligence Metrics for Visually Rich Document Evaluation](https://arxiv.org/pdf/2205.11215.pdf)
 <br/>
 
 
