@@ -6,6 +6,7 @@ import sys
 import os
 from requests import get, post
 
+# Please check https://www.cs.cmu.edu/~aharley/rvl-cdip/ for RVL-CDIP input.
 INPUT_DIR = './pdfs'
 OUTPUT_DIR = './preds'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
