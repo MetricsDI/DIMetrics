@@ -6,6 +6,7 @@ import sys
 import os
 from requests import get, post
 
+# Please check https://github.com/clovaai/cord for CORD input
 INPUT_DIR = 'CORD_001/test/image'
 OUTPUT_DIR = './fr_CORD_001_preds'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
