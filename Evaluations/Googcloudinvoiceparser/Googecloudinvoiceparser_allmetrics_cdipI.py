@@ -37,6 +37,7 @@ def main(GT_DIR, GT_Lineitem_DIR, pred_file, LineItemPrefix, g2gt, gt_lineitems2
 if __name__ == "__main__":
     GT_DIR = '../sample_data/cdip_data/'
     GT_Lineitem_DIR = '../sample_data/cdip_lineitems'
+    # Please contact the code owner for prediction files.
     pred_file = "../sample_data/model_preds/GoogleAI/cdip/google_line_item_pred.csv"
     g2gt = {"line_item/description": "main|||item_description||line_items",
             "line_item/amount": "main|||item_total||line_items",
