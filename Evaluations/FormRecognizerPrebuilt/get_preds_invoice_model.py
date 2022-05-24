@@ -18,9 +18,9 @@ def runAnalysis(input_file, output_file, file_type):
     if os.path.exists(output_file):
         return
     # Endpoint URL
-    endpoint = r"https://form-swapnil.cognitiveservices.azure.com/"
+    endpoint = r""
     # Subscription Key
-    apim_key = "a9bb1ace92ea459180e9acc99facd05a"
+    apim_key = ""
     # Model ID
     model_id = ""
     # API version
