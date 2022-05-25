@@ -37,6 +37,7 @@ def main(GT_DIR, GT_Lineitem_DIR, PRED_DIR, multiplier, LineItemPrefix, field_ma
 if __name__ == "__main__":
     GT_DIR = '../sample_data/cdip_data/'
     GT_Lineitem_DIR = '../sample_data/cdip_lineitems'
+    # Please contact the code owner for prediction files.
     PRED_DIR = '../sample_data/model_preds/FR/cdip/'
     multiplier = 300
     LineItemPrefix = 'Item'
