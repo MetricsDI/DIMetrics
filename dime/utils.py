@@ -1,3 +1,7 @@
+"""
+Util functions for reading files and assisting metric calculations
+"""
+
 import os
 import re
 
@@ -9,6 +13,15 @@ from .textual import lc_subsequence, levenshtein_distance
 
 
 def process_gt_lineitems_json(file, field_mapping=None):
+    """Reads ground truth data from a json into a dictionary based on FR field mappings
+
+    Args:
+        file (file): json file to be read
+        field_mapping (dict) [optional]: Dictionary that maps ground truth keys to form recognizer keys
+
+    Returns:
+        new_data (dict): Dictionary containing all the fields in the form of key-value pairs
+    """
     with open(file) as f:
         data = json.load(f)
     new_data = dict()
@@ -36,6 +49,16 @@ def process_gt_lineitems_json(file, field_mapping=None):
 
 
 def box_inside(y_true, y_pred):
+    """Checks whether one of the boxes is inside the other. (Either way)
+    Expects Bounding Boxes in the form: [xmin, ymin, xmax, ymax]
+
+    Args:
+        y_true (list or numpy array): Ground truth bounding box array
+        y_pred (list or numpy array): Predicted bounding box array
+
+    Returns:
+        boolean (bool): True if one of the boxes is inside the other, otherwise False
+    """
     xA = max(y_true[0], y_pred[0])
     yA = max(y_true[1], y_pred[1])
     xB = min(y_true[2], y_pred[2])
@@ -107,7 +130,16 @@ def get_matched_gt_pred(gt_df, pred_df, iou_threshold=0.51):
 
 
 def sort_line_items(item_df, by='group_label'):
-    # by='mid_y' if you want to sort line items by Y coordinate.
+    """Sorts line items based on group_label or mid_y (position on page)
+
+    Args:
+        item_df (pd.DataFrame): List items DataFrame 
+        by (string) [optional]: Defaults to group_label. Use 'mid_y' if you want to sort line items by Y coordinate.
+
+    Returns:
+        ans (list): Sorted list items based on above criteria
+    """
+
     if len(item_df) == 0:
         return []
     ans = []
@@ -367,6 +399,18 @@ def hedLists2textDf(gt_hed_lists, pred_hed_lists):
 
 
 def process_pred_row(label, value, filename=None, group_label=None, multiplier=1):
+    """Processes FR row
+
+    Args:
+        label (string): Field Name
+        value (string): Field Value
+        filename (string) [optional]: Filename of corresponding pdf. Defaults to None.
+        group_label (int): integer index of the field w.r.t. list items
+        multiplier (float): multiplier for all coordinates
+
+    Returns:
+        d (dict): object containing label, value, bounding box and corresponding list item index
+    """
     if 'boundingBox' in value:
         bbox = value['boundingBox']
         text = value['text']
@@ -383,6 +427,20 @@ def process_pred_row(label, value, filename=None, group_label=None, multiplier=1
 
 
 def process_pred_file(pred_file, pdf_filename=None, multiplier=1):
+    """Processes FR file
+
+    Args:
+        pred_file (file): prediction file from FR output
+        pdf_filename (string) [optional]: Filename of corresponding pdf. Defaults to None.
+        multiplier (float): multiplier for all coordinates
+
+    Returns:
+        pred_df (pd.DataFrame): DataFrame containing prediction fields in the form of rows
+        item_df (pd.DataFrame): DataFrame containing list items
+        height (int): Total height of page
+        width (int): Total width of page
+    """
+
     with open(pred_file) as f:
         pred_dict = json.load(f)
 
@@ -407,15 +465,16 @@ def process_pred_file(pred_file, pdf_filename=None, multiplier=1):
 
 # CORD
 def process_cord_file(gt_file, pdf_filename=None):
-    """Processes cord files
+    """Processes cord file
 
     Args:
-        gt_file ([type]): [description]
-        pdf_filename ([type], optional): [description]. Defaults to None.
+        gt_file (file): ground truth file of CORD dataset
+        pdf_filename (string) [optional]: Filename of corresponding pdf. Defaults to None.
 
     Returns:
-        [type]: [description]
+        gt_df (pd.DataFrame): DataFrame containing ground truth fields in the form of rows
     """
+    
     with open(gt_file) as f:
         gt_dict = json.load(f)
 
@@ -478,13 +537,13 @@ def get_dicts(df, ListPrefix="Item"):
 
 
 def get_item_df(item_rows):
-    """Summary
+    """Combine each group of list item elements into list items using group_label
 
     Args:
-        item_rows ([type]): [description]
+        item_rows (pd.DataFrame): DataFrame containing list item elements separately
 
     Returns:
-        [type]: [description]
+        item_df (pd.DataFrame): DataFrame containing list items with combined text and bounding box
     """
     items = []
     for i, group in item_rows.groupby(['group_label']):
